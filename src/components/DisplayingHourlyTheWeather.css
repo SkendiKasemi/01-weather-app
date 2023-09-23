@@ -1,0 +1,47 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  width: 300px;
+  transition: background-color 0.3s ease;
+}
+
+.box:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.time h4 {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.image img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 5px;
+}
+
+.image span {
+  font-size: 12px;
+  color: #888888;
+}
+
+.temp h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.temp h4:first-child {
+  font-style: italic;
+}
